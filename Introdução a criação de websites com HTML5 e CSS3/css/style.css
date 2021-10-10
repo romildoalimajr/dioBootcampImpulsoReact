@@ -1,0 +1,27 @@
+
+body{
+    background: #f7f7f7;
+}
+#title, .subtitle, .posttitle{
+    color: #363636;
+}
+.posttitle{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post{
+    background: #fff;
+    border: 3px solid #363636;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post_image{
+    margin-bottom: 5px;
+}

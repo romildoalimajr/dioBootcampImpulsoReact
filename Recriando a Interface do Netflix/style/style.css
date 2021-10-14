@@ -1,0 +1,118 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 46px;
+    margin-left: 5px;
+}
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 20px;
+}
+header nav a:hover{
+    color: #fff;
+}
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50)
+    ,rgba(0,0,0,.50)),
+    url('../img/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg');
+    height: 650px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .container{
+    padding: 10px;
+    width: 500px;
+}
+.filme-principal .titulo{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.filme-principal h2 span{
+    color: var(--vermelho);
+    font-family: 'arial black';
+    margin-right: 5px;
+}
+.filme-principal h2{
+    font-weight: 400;
+}
+.filme-principal .sinopse{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.filme-principal .descricao{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.container-botao{
+    display: flex;
+}
+.filme-principal .botao{
+    width: 100%;
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    font-size: 22px;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 2s;
+}
+.filme-principal .botao:hover{ 
+    background-color: transparent;
+    color: white;
+    border: 0;
+}
+.botao i{
+    color: var(--vermelho);
+    font-size: 22px;
+    margin-right: 10px;
+}
+.container-tipos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.item-tipo{
+    padding: 10px;
+}
+section h3{
+    font-family: 'arial black';
+    font-size: 32px;
+    font-weight: 100;
+    margin-top: 20px;
+    padding: 10px;
+}
+section .tipos-series h3{
+    font-family: 'arial black';
+    font-size: 32px;
+    font-weight: 100;
+    margin-top: 20px;
+    padding: 10px;
+}
